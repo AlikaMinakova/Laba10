@@ -10,9 +10,6 @@ class Research extends Employee {
 		this.researchArea = researchArea;
 	}
 
-	public void addProject(Project p, int hours) {
-		projects.add(new Participation(p, hours));
-	}
 
 	public int getTotalProjectHours() {
 		int total = 0;
