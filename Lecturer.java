@@ -17,7 +17,7 @@ class Lecturer extends Research {
 	}
 
 	public void listCourses() {
-		System.out.println("Курсы лектора " + getName() + ":");
+		System.out.println("Курсы преподавателя " + getName() + ":");
 		for (Course c : courses) {
 			c.getInfo();
 		}

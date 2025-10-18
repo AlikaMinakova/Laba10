@@ -27,12 +27,12 @@ public class Main {
 
         System.out.println(" Информация о сотрудниках:");
         System.out.println("Декан:" + dean.getContactInfo());
-        System.out.println("Лектор:" + lecturer.getContactInfo());
+        System.out.println("Преподаватель:" + lecturer.getContactInfo());
 
-        System.out.println("\nКурсы лектора:");
+        System.out.println("\nКурсы преподавател:");
         lecturer.listCourses();
 
-        System.out.println("\nПроекты лектора:");
+        System.out.println("\nПроекты преподавателя:");
         System.out.println("Общее количество часов по проектам: " + lecturer.getTotalProjectHours());
 
         System.out.println("\nУниверситет:");
