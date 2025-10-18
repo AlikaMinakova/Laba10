@@ -25,13 +25,14 @@ public class Main {
         Project aiProject = new Project("AI Research", LocalDate.of(2024, 1, 10), LocalDate.of(2025, 1, 10));
         lecturer.addProject(aiProject, 120);
 
-        System.out.println(" Информация о сотруднике:");
-        System.out.println(lecturer.getContactInfo());
+        System.out.println(" Информация о сотрудниках:");
+        System.out.println("Декан:" + dean.getContactInfo());
+        System.out.println("Лектор:" + lecturer.getContactInfo());
 
-        System.out.println("\nКурсы преподавателя:");
+        System.out.println("\nКурсы лектора:");
         lecturer.listCourses();
 
-        System.out.println("\nПроекты преподавателя:");
+        System.out.println("\nПроекты лектора:");
         System.out.println("Общее количество часов по проектам: " + lecturer.getTotalProjectHours());
 
         System.out.println("\nУниверситет:");
